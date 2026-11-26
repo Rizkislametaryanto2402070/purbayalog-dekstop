@@ -1,0 +1,11 @@
+[package]
+name = "magang-core"
+version = "1.0.0"
+edition = "2021"
+description = "Inti penyimpanan PurbayaLog: tulis atomik, backup pengaman, validasi jalur. Hanya memakai std."
+license = "MIT"
+
+# Workspace sendiri agar `cargo test` di folder ini berjalan mandiri (tanpa mengunduh Tauri).
+[workspace]
+
+[dependencies]
