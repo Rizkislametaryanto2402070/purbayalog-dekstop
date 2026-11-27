@@ -1,8 +1,22 @@
+<div align="center">
+
 # PurbayaLog
 
-Aplikasi desktop pencatat logbook aktivitas harian, manajemen tugas, dan pembuat laporan Excel otomatis untuk mahasiswa **Politeknik Purbaya** — mendukung pencatatan **MBKM**, **PKL**, **Magang**, maupun kegiatan akademik lapangan lainnya secara **100% offline**.
+Aplikasi desktop pencatat logbook aktivitas harian, manajemen tugas, dan pembuat laporan Excel otomatis untuk mahasiswa **Politeknik Purbaya** (MBKM, PKL, maupun Magang).
 
-Dibangun agar ringan, cepat dibuka setiap hari, dan menjaga data tetap tersimpan aman di komputer pribadi tanpa bergantung pada koneksi internet atau server eksternal.
+Berjalan **100% offline** di komputer pribadi, tanpa internet, dan dikemas menjadi file installer `.exe` untuk Windows.
+
+<p>
+  <img src="https://img.shields.io/badge/Tauri-2.12-24C8D8?style=for-the-badge&logo=tauri&logoColor=24C8D8&labelColor=2B303A" alt="Tauri 2.12" />
+  <img src="https://img.shields.io/badge/Rust-2021-DEA584?style=for-the-badge&logo=rust&logoColor=white&labelColor=2B303A" alt="Rust 2021" />
+  <img src="https://img.shields.io/badge/JavaScript-ES%20Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=2B303A" alt="JavaScript ES Modules" />
+  <img src="https://img.shields.io/badge/HTML5-DOM-E34F26?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=2B303A" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css&logoColor=38BDF8&labelColor=2B303A" alt="CSS 3" />
+  <img src="https://img.shields.io/badge/OpenXML-.xlsx-217346?style=for-the-badge&labelColor=2B303A" alt="OpenXML .xlsx" />
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&labelColor=2B303A" alt="Windows 10 | 11" />
+</p>
+
+</div>
 
 ---
 
@@ -24,7 +38,11 @@ PurbayaLog memisahkan antarmuka ringan di sisi frontend dengan lapisan I/O nativ
 
 | Mode Terang | Mode Gelap |
 |---|---|
-| ![Dashboard Mode Terang](docs/screenshots/dashboard-data-light.png) | ![Dashboard Mode Gelap](docs/screenshots/dashboard-dark.png) |
+| ![Dashboard Mode Terang](docs/screenshots/app-dashboard-light.jpg) | ![Dashboard Mode Gelap](docs/screenshots/app-dashboard-dark.jpg) |
+
+### Output Laporan Excel (`.xlsx`)
+
+![Output Excel Matriks Program](docs/screenshots/excel-matriks-program.png)
 
 ---
 
